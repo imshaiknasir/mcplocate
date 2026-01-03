@@ -36,7 +36,9 @@ module.exports = {
         }],
         // Update package.json version and publish to NPM
         // Using Trusted Publishers (OIDC) - configured in package.json publishConfig
-        '@semantic-release/npm',
+        ['@semantic-release/npm', {
+            provenance: true
+        }],
         // Create GitHub release
         '@semantic-release/github',
         // Commit version bump back to repo

@@ -29,6 +29,11 @@
     ],
     "author": "",
     "license": "MIT",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "provenance": true,
+        "access": "public"
+    },
     "dependencies": {
         "chalk": "^5.3.0",
         "commander": "^12.1.0",

@@ -1,0 +1,57 @@
+{
+    "name": "mcplocate",
+    "version": "1.0.0",
+    "description": "CLI tool to locate MCP configuration files for AI coding tools (Claude Code, Gemini CLI, Cursor, GitHub Copilot, VS Code, Antigravity)",
+    "main": "src/index.js",
+    "bin": {
+        "mcplocate": "./bin/mcplocate.js"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "node bin/mcplocate.js",
+        "test": "node bin/mcplocate.js --help",
+        "release": "semantic-release",
+        "release:dry": "semantic-release --dry-run"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "cli",
+        "claude",
+        "gemini",
+        "cursor",
+        "copilot",
+        "vscode",
+        "antigravity",
+        "ai-tools",
+        "config",
+        "developer-tools"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "commander": "^12.1.0",
+        "open": "^10.1.0"
+    },
+    "devDependencies": {
+        "@semantic-release/commit-analyzer": "^13.0.0",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^11.0.1",
+        "@semantic-release/npm": "^12.0.1",
+        "@semantic-release/release-notes-generator": "^14.0.1",
+        "conventional-changelog-conventionalcommits": "^8.0.0",
+        "semantic-release": "^24.2.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imshaiknasir/mcplocate.git"
+    },
+    "bugs": {
+        "url": "https://github.com/imshaiknasir/mcplocate/issues"
+    },
+    "homepage": "https://github.com/imshaiknasir/mcplocate#readme"
+}
